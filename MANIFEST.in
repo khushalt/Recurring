@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include indictrans_si *.css
+recursive-include indictrans_si *.csv
+recursive-include indictrans_si *.html
+recursive-include indictrans_si *.ico
+recursive-include indictrans_si *.js
+recursive-include indictrans_si *.json
+recursive-include indictrans_si *.md
+recursive-include indictrans_si *.png
+recursive-include indictrans_si *.py
+recursive-include indictrans_si *.svg
+recursive-include indictrans_si *.txt
+recursive-exclude indictrans_si *.pyc
